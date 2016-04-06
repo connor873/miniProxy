@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @connor873
- Watch 1
-  Star 0
-  Fork 86 rothkj1022/miniProxy
-forked from joshdick/miniProxy
- Code  Pull requests 0  Wiki  Pulse  Graphs
-Tree: fa25705244 Find file Copy pathminiProxy/miniProxy.php
-fa25705  19 days ago
- Kevin Roth Redirect script to final url if target redirects
-5 contributors @joshdick @etiktin @pvcnt @justnorris @a-x-
-RawBlameHistory     Executable File  448 lines (388 sloc)  18.7 KB
 <?php
 /*
 miniProxy - A simple PHP web proxy. <https://github.com/joshdick/miniProxy>
@@ -403,5 +386,3 @@ if (stripos($contentType, "text/html") !== false) {
   header("Content-Length: " . strlen($responseBody));
   echo $responseBody;
 }
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
